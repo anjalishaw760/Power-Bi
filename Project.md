@@ -13,6 +13,7 @@ In any business, data flows from multiple dimensions—finance, sales, marketing
 <img width="1920" height="1080" alt="Screenshot (672)" src="https://github.com/user-attachments/assets/1c6aec37-7447-4d76-bdf0-33a2c5209a84" />
 
 
+
 🔹 Finance View: Track P&L statements, Net Sales, Gross Margin, and profitability across countries, products, and customers.
 
 - Finance Dashboard <a href="https://github.com/anjalishaw760/Power-Bi/blob/main/Screenshot%20(673).png">dashboard view</a>
