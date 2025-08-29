@@ -12,11 +12,13 @@ In any business, data flows from multiple dimensions—finance, sales, marketing
 
 <img width="1920" height="1080" alt="Screenshot (672)" src="https://github.com/user-attachments/assets/1c6aec37-7447-4d76-bdf0-33a2c5209a84" />
 
+
 🔹 Finance View: Track P&L statements, Net Sales, Gross Margin, and profitability across countries, products, and customers.
 
 - Finance Dashboard <a href="https://github.com/anjalishaw760/Power-Bi/blob/main/Screenshot%20(673).png">dashboard view</a>
 
 <img width="1920" height="1080" alt="Screenshot (673)" src="https://github.com/user-attachments/assets/43527af7-84ca-4c3b-9c12-18033d545a68" />
+
 
 🔹 Sales & Marketing View: Evaluate customer and product performance, discover top/bottom performers, and identify areas for growth.
 
@@ -24,15 +26,18 @@ In any business, data flows from multiple dimensions—finance, sales, marketing
 
 <img width="1920" height="1080" alt="Screenshot (674)" src="https://github.com/user-attachments/assets/ff16a340-b5f2-424d-9163-9fff01f1cbf0" />
 
+
 - Marketing Dashboard <a href="https://github.com/anjalishaw760/Power-Bi/blob/main/Screenshot%20(675).png">dashboard view</a>
 
 <img width="1920" height="1080" alt="Screenshot (675)" src="https://github.com/user-attachments/assets/fc93e34a-6c92-4a7f-9e16-e324792a8c71" />
+
 
 🔹 Supply Chain View: Monitor forecast accuracy, net error, and risks such as excess inventory or stockouts.
 
 - Supply Chain Dashboard <a href="https://github.com/anjalishaw760/Power-Bi/blob/main/Screenshot%20(676).png">dashboard view</a>
 
 <img width="1920" height="1080" alt="Screenshot (676)" src="https://github.com/user-attachments/assets/677fedb8-5f96-4401-90d7-4d7be4ce8901" />
+
 
 🔹 Executive View: A consolidated one-page view for leadership to quickly assess performance and make data-driven decisions.
 
