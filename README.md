@@ -1,5 +1,6 @@
 Project Documentation :- 
 
+
 Table of Contents
 
 1. Project Overview
@@ -13,6 +14,7 @@ Table of Contents
 5. Project Structure
 
 6. Data Cleaning and Preparation
+
 
 
 1. Project Overview :-
@@ -36,6 +38,7 @@ Channel and division revenue contribution
 It enables decision-makers to track business health, compare performance against benchmarks, and identify risk factors like excess inventory (EI) and out-of-stock (OOS) situations.
 
 
+
 2. Business Problem :-
 
 
@@ -51,6 +54,7 @@ High operational costs with limited clarity on cost drivers.
 
 
 This project addresses these challenges by consolidating data into a single interactive Power BI solution that empowers stakeholders with data-driven decision-making capabilities.
+
 
 
 3. Dataset :- 
@@ -76,6 +80,7 @@ Channel Data – Revenue split by Retailer, Direct, and Distributor.
 All financial values are reported in USD (millions), with refresh dates recorded monthly.
 
 
+
 4. Tools & Technologies :-
 
 Power BI Desktop – Dashboard design and visualization.
@@ -87,6 +92,7 @@ Power Query (M Language) – For ETL (Extract, Transform, Load) and data prepara
 Excel Integration – Export and cross-verification of data.
 
 Global Database Sources – For system-generated data like Actuals, Forecasts, and Historical data.
+
 
 
 5. Project Structure :-
@@ -108,6 +114,7 @@ The dashboard is structured into multiple business views :
 Each view is interconnected, allowing drill-downs by region, segment, category, product, and customer.
 
 
+
 6. Data Cleaning and Preparation :- 
    
 
@@ -118,6 +125,7 @@ Data Collection & Integration
 Pulled system data (Forecast, Actuals, Historical Forecast) from the global database.
 
 Collected non-system data (Targets, Operational Expenses, Market Share) on request.
+
 
 
 Data Cleaning Steps :-
@@ -131,6 +139,7 @@ Normalized category, region, and customer names to avoid mismatches.
 Handled missing values by using business logic (e.g., imputing missing forecast values with historical averages).
 
 
+
 Data Transformation :-
 
 Built calculated fields for Net Sales, Gross Margin %, Net Profit %, and Forecast Accuracy.
@@ -138,6 +147,7 @@ Built calculated fields for Net Sales, Gross Margin %, Net Profit %, and Forecas
 Derived KPIs for Top/Bottom Customers, Product Contribution, and Regional Performance.
 
 Created relationships between fact tables (sales, forecast, finance) and dimension tables (customer, product, region).
+
 
 
 Data Refresh Strategy :-
