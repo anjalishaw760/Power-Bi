@@ -1,4 +1,4 @@
-Project Documentation
+Project Documentation :- 
 
 Table of Contents
 
@@ -15,7 +15,8 @@ Table of Contents
 6. Data Cleaning and Preparation
 
 
-1. Project Overview
+1. Project Overview :-
+   
 
 This project, titled Business Insights 360, leverages Power BI to deliver a comprehensive view of business performance across multiple dimensions—Finance, Sales, Marketing, Supply Chain, and Executive Management.
 
@@ -35,7 +36,7 @@ Channel and division revenue contribution
 It enables decision-makers to track business health, compare performance against benchmarks, and identify risk factors like excess inventory (EI) and out-of-stock (OOS) situations.
 
 
-2. Business Problem
+2. Business Problem :-
 
 
 Organizations often struggle with :
@@ -52,7 +53,7 @@ High operational costs with limited clarity on cost drivers.
 This project addresses these challenges by consolidating data into a single interactive Power BI solution that empowers stakeholders with data-driven decision-making capabilities.
 
 
-3. Dataset
+3. Dataset :- 
    
 
 The project uses business data consolidated from multiple sources:
@@ -75,7 +76,7 @@ Channel Data – Revenue split by Retailer, Direct, and Distributor.
 All financial values are reported in USD (millions), with refresh dates recorded monthly.
 
 
-4. Tools & Technologies
+4. Tools & Technologies :-
 
 Power BI Desktop – Dashboard design and visualization.
 
@@ -88,7 +89,7 @@ Excel Integration – Export and cross-verification of data.
 Global Database Sources – For system-generated data like Actuals, Forecasts, and Historical data.
 
 
-5. Project Structure
+5. Project Structure :-
 
 The dashboard is structured into multiple business views :
 
@@ -107,7 +108,7 @@ The dashboard is structured into multiple business views :
 Each view is interconnected, allowing drill-downs by region, segment, category, product, and customer.
 
 
-6. Data Cleaning and Preparation
+6. Data Cleaning and Preparation :- 
    
 
 Data preparation was a crucial step before building the dashboards:
@@ -119,7 +120,7 @@ Pulled system data (Forecast, Actuals, Historical Forecast) from the global data
 Collected non-system data (Targets, Operational Expenses, Market Share) on request.
 
 
-Data Cleaning Steps
+Data Cleaning Steps :-
 
 Removed duplicates and invalid records.
 
@@ -130,7 +131,7 @@ Normalized category, region, and customer names to avoid mismatches.
 Handled missing values by using business logic (e.g., imputing missing forecast values with historical averages).
 
 
-Data Transformation
+Data Transformation :-
 
 Built calculated fields for Net Sales, Gross Margin %, Net Profit %, and Forecast Accuracy.
 
@@ -139,7 +140,7 @@ Derived KPIs for Top/Bottom Customers, Product Contribution, and Regional Perfor
 Created relationships between fact tables (sales, forecast, finance) and dimension tables (customer, product, region).
 
 
-Data Refresh Strategy
+Data Refresh Strategy :-
 
 Automated monthly refresh (5th working day of each month).
 
