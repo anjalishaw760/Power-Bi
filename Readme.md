@@ -16,13 +16,13 @@ By integrating financial, sales, marketing, and supply chain metrics, the dashbo
 
 Organizations often struggle with:
 
-Disconnected views of finance, sales, and supply chain data
+• Disconnected views of finance, sales, and supply chain data
 
-Difficulty in identifying low-performing products/customers
+• Difficulty in identifying low-performing products/customers
 
-Lack of accurate forecasting and risk insights
+• Lack of accurate forecasting and risk insights
 
-Decision delays due to scattered data sources
+• Decision delays due to scattered data sources
 
 
 This project addresses these issues by creating a centralized analytics hub in Power BI.
