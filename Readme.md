@@ -11,7 +11,7 @@
 6. Data Cleaning and Preparation
 
 
-# Project Overview
+## Project Overview
 
 This project, titled Business Insights 360, leverages Power BI to deliver a comprehensive view of business performance across multiple dimensions—Finance, Sales, Marketing, Supply Chain, and Executive Management.
 
@@ -29,7 +29,8 @@ Channel and division revenue contribution
 
 It enables decision-makers to track business health, compare performance against benchmarks, and identify risk factors like excess inventory (EI) and out-of-stock (OOS) situations.
 
-2. Business Problem
+
+## Business Problem
 
 Organizations often struggle with:
 
@@ -43,7 +44,8 @@ High operational costs with limited clarity on cost drivers.
 
 This project addresses these challenges by consolidating data into a single interactive Power BI solution that empowers stakeholders with data-driven decision-making capabilities.
 
-3. Dataset
+
+## Dataset
 
 The project uses business data consolidated from multiple sources:
 
@@ -63,7 +65,8 @@ Channel Data – Revenue split by Retailer, Direct, and Distributor.
 
 All financial values are reported in USD (millions), with refresh dates recorded monthly.
 
-4. Tools & Technologies
+
+## Tools & Technologies
 
 Power BI Desktop – Dashboard design and visualization.
 
@@ -75,7 +78,8 @@ Excel Integration – Export and cross-verification of data.
 
 Global Database Sources – For system-generated data like Actuals, Forecasts, and Historical data.
 
-5. Project Structure
+
+## Project Structure
 
 The dashboard is structured into multiple business views:
 
@@ -91,7 +95,8 @@ Executive View – Consolidated top-level summary for quick decision-making.
 
 Each view is interconnected, allowing drill-downs by region, segment, category, product, and customer.
 
-6. Data Cleaning and Preparation
+
+## Data Cleaning and Preparation
 
 Data preparation was a crucial step before building the dashboards:
 
