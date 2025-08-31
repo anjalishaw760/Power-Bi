@@ -3,12 +3,12 @@
 
 ## Table of Contents 
 
-1. Project Overview
-2. Business Problem 
-3. Dataset 
-4. Tools & Technologies
-5. Project Structure 
-6. Data Cleaning and Preparation
+### 1. Project Overview
+### 2. Business Problem 
+### 3. Dataset 
+### 4. Tools & Technologies
+### 5. Project Structure 
+### 6. Data Cleaning and Preparation
 
 
 ## Project Overview
