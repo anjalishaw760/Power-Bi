@@ -1,131 +1,160 @@
-# Project Documentation 
+# Business Insights 360 – Power BI Dashboard
+
+## 🔹Brief Summary
+
+An interactive Power BI dashboard designed to provide end-to-end business insights across Finance, Sales, Marketing, and Supply Chain, enabling executives to make data-driven decisions.
 
 
-## Table of Contents 
+##  📌 Overview
 
-### 1. Project Overview
-### 2. Business Problem 
-### 3. Dataset 
-### 4. Tools & Technologies
-### 5. Project Structure 
-### 6. Data Cleaning and Preparation
+This project, Business Insights 360, consolidates data from multiple business domains into a single reporting solution. It helps stakeholders track Net Sales, Gross Margin, Net Profit, Forecast Accuracy, and Market Performance across regions, products, and customers.
+
+By integrating financial, sales, marketing, and supply chain metrics, the dashboard delivers a 360-degree view of organizational performance.
 
 
-## Project Overview
-
-This project, titled Business Insights 360, leverages Power BI to deliver a comprehensive view of business performance across multiple dimensions—Finance, Sales, Marketing, Supply Chain, and Executive Management.
-
-The dashboard provides actionable insights on key metrics such as:
-
-Net Sales, Gross Margin, and Net Profit
-
-Customer and product profitability
-
-Forecast accuracy and error analysis
-
-Regional and segment-level performance
-
-Channel and division revenue contribution
-
-It enables decision-makers to track business health, compare performance against benchmarks, and identify risk factors like excess inventory (EI) and out-of-stock (OOS) situations.
-
-
-## Business Problem
+## ❓ Problem Statement
 
 Organizations often struggle with:
 
-Fragmented reporting across finance, sales, marketing, and supply chain.
+Disconnected views of finance, sales, and supply chain data
 
-Lack of real-time visibility into profitability, forecast accuracy, and market share.
+Difficulty in identifying low-performing products/customers
 
-Difficulty identifying top/bottom-performing customers, regions, and products.
+Lack of accurate forecasting and risk insights
 
-High operational costs with limited clarity on cost drivers.
-
-This project addresses these challenges by consolidating data into a single interactive Power BI solution that empowers stakeholders with data-driven decision-making capabilities.
+Decision delays due to scattered data sources
 
 
-## Dataset
-
-The project uses business data consolidated from multiple sources:
-
-Sales Transactions Data – Gross Sales, Net Invoice Sales, Discounts, Deductions.
-
-Financial Data – COGS (Manufacturing, Freight, Other Costs), Operational Expenses, Net Profit.
-
-Customer Data – Performance metrics by customer (Amazon, Flipkart, Walmart, Costco, etc.).
-
-Product Data – Net Sales, Gross Margin %, and profitability by product categories (Notebook, Desktop, Peripherals, Accessories, Networking, Storage).
-
-Forecasting Data – Forecast Accuracy %, Net Error, and risk profile (OOS/EI).
-
-Regional Data – Market performance across APAC, EU, LATAM, and NA.
-
-Channel Data – Revenue split by Retailer, Direct, and Distributor.
-
-All financial values are reported in USD (millions), with refresh dates recorded monthly.
+This project addresses these issues by creating a centralized analytics hub in Power BI.
 
 
-## Tools & Technologies
+## 📊 Dataset
 
-Power BI Desktop – Dashboard design and visualization.
+Sales Transactions: Net sales, gross sales, discounts, and deductions
 
-DAX (Data Analysis Expressions) – For creating measures, KPIs, and calculated fields.
+Financial Data: Profit & Loss, COGS, Operational Expenses, Net Profit %
 
-Power Query (M Language) – For ETL (Extract, Transform, Load) and data preparation.
+Customer & Product Data: Customer revenue, GM%, Top/Bottom performers
 
-Excel Integration – Export and cross-verification of data.
+Supply Chain Data: Forecast accuracy, net error, inventory risk (EI & OOS flags)
 
-Global Database Sources – For system-generated data like Actuals, Forecasts, and Historical data.
-
-
-## Project Structure
-
-The dashboard is structured into multiple business views:
-
-Finance View – Profit & Loss (P&L) statements, Net Sales, Gross Margin, Net Profit analysis.
-
-Sales View – Customer performance tracking, profitability and growth matrix.
-
-Marketing View – Product-level insights, top/bottom performers, profitability metrics.
-
-Supply Chain View – Forecast accuracy, net error trends, and risk profiles.
-
-Executive View – Consolidated top-level summary for quick decision-making.
-
-Each view is interconnected, allowing drill-downs by region, segment, category, product, and customer.
+Market Share Data: AtliQ vs Competitors, yearly performance trends
 
 
-## Data Cleaning and Preparation
+## 🛠 Tools & Technologies
 
-Data preparation was a crucial step before building the dashboards:
+Power BI Desktop – Data modeling, DAX measures, and visualization
 
-Data Collection & Integration
+Excel / CSV – Base data source
 
-Pulled system data (Forecast, Actuals, Historical Forecast) from the global database.
+DAX – Advanced calculations for metrics like GM%, Forecast Accuracy, Profit %
 
-Collected non-system data (Targets, Operational Expenses, Market Share) on request.
+ETL in Power Query – Data cleaning, transformation, and preparation
 
-Data Cleaning Steps
 
-Removed duplicates and invalid records.
+## ⚙ Methods
 
-Standardized financial values (all in USD, Millions).
+1. Data Cleaning & Transformation using Power Query
 
-Normalized category, region, and customer names to avoid mismatches.
 
-Handled missing values by using business logic (e.g., imputing missing forecast values with historical averages).
+2. Data Modeling with relationships across sales, finance, product, and customer tables
 
-Data Transformation
 
-Built calculated fields for Net Sales, Gross Margin %, Net Profit %, and Forecast Accuracy.
+3. DAX Measures for key KPIs (Gross Margin %, Net Profit %, Forecast Accuracy)
 
-Derived KPIs for Top/Bottom Customers, Product Contribution, and Regional Performance.
 
-Created relationships between fact tables (sales, forecast, finance) and dimension tables (customer, product, region).
+4. Interactive Visuals & Drilldowns across multiple views:
 
-Data Refresh Strategy
+Finance View
 
-Automated monthly refresh (5th working day of each month).
+Sales View
 
-Ensured historical records remain stable while new data gets appended.
+Marketing View
+
+Supply Chain View
+
+Executive Summary
+
+
+## 📈 Key Insights
+
+Net Sales reached $3.74B, showing +353% growth vs benchmark
+
+Gross Margin % at 38.08%, slightly above benchmark (+4.37%)
+
+Net Profit % at -13.98%, highlighting operational inefficiencies
+
+Top Customers: Amazon, AtliQ Exclusive, AtliQ e-Store
+
+Top Products: Notebook segment contributing $1.58B revenue
+
+Forecast Accuracy: 81.17% (↑ from 80.21% last year) but with large net errors in some categories
+
+Regional Performance: APAC leading revenue ($1.92B), but with lower profitability
+
+
+## 📊 Dashboard / Model / Output
+
+The project delivers multiple dashboards:
+
+Finance Dashboard – Profit & Loss, Net Sales, Gross Margin, Net Profit %
+
+Sales Dashboard – Customer performance, revenue trends
+
+Marketing Dashboard – Product-level insights, profitability matrix
+
+Supply Chain Dashboard – Forecast accuracy, risk analysis (EI/OOS)
+
+Executive View – Consolidated top insights for decision-makers
+
+
+## 🚀 How to Run this Project?
+
+1. Install Power BI Desktop
+
+
+2. Clone this repository:
+
+git clone https://github.com/yourusername/business-insights-360.git
+
+
+3. Open the .pbix file in Power BI Desktop
+
+
+4. Refresh data sources (Excel/CSV files provided in data/ folder)
+
+
+5. Interact with the dashboards using filters and slicers
+   
+
+## ✅ Results & Conclusion
+
+Built a centralized BI solution reducing reporting delays
+
+Enabled tracking of profitability and sales performance at granular levels
+
+Identified loss-making segments (e.g., Notebooks and Peripherals with negative NP%)
+
+Improved forecast accuracy monitoring for better inventory planning
+
+
+## 🔮 Future Work
+
+Automate monthly refresh via Power BI Service & Gateway
+
+Integrate real-time data sources (SQL Server / APIs)
+
+Add predictive analytics & ML forecasting
+
+Extend to HR & Customer Support analytics for a full enterprise suite
+
+
+## 👩‍💻 Author & Contact
+
+Author: Anjali Shaw
+
+📧 Email: [anjalishaw97543@gmail.com]
+
+🔗 LinkedIn: 
+
+💻 GitHub:
