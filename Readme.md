@@ -56,24 +56,22 @@ ETL in Power Query – Data cleaning, transformation, and preparation
 
 1. Data Cleaning & Transformation using Power Query
 
-
 2. Data Modeling with relationships across sales, finance, product, and customer tables
-
 
 3. DAX Measures for key KPIs (Gross Margin %, Net Profit %, Forecast Accuracy)
 
-
 4. Interactive Visuals & Drilldowns across multiple views:
 
-Finance View
 
-Sales View
+•  Finance View
 
-Marketing View
+•  Sales View
 
-Supply Chain View
+•  Marketing View
 
-Executive Summary
+•  Supply Chain View
+
+•  Executive Summary
 
 
 ## 📈 Key Insights
