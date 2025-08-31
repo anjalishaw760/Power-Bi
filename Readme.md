@@ -155,6 +155,6 @@ Author: Anjali Shaw
 
 📧 Email: [anjalishaw97543@gmail.com]
 
-🔗 LinkedIn: 
+🔗 LinkedIn:https:[//www.linkedin.com/in/anjali-shaw976] 
 
 💻 GitHub:
