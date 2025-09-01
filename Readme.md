@@ -1,6 +1,6 @@
 # Business Insights 360 – Power BI Dashboard
 
-- <a href="https://github.com/anjalishaw760/Power-Bi/blob/main/Power%20bi%20final%20report%20in%2028.08.2025%20wpp.pdf">Datasetview</a>
+- <a href="https://github.com/anjalishaw760/Power-Bi/blob/main/Screenshot%20(684).png">Screenshotview</a>
 
 ## 🔹Brief Summary
 
