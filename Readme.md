@@ -1,6 +1,7 @@
 # Business Insights 360 – Power BI Dashboard
 
-- <a href="<img width="1485" height="835" alt="Screenshot (684)" src="https://github.com/user-attachments/assets/86da1506-c7aa-4a4a-a2b5-5be59b2739ae"</a>
+- <a href="<<img width="1485" height="835" alt="Screenshot (684)" src="https://github.com/user-attachments/assets/944aef9d-1a7f-47cd-bc29-45bfb132393d" />
+   /a>
 
 ## 🔹Brief Summary
 
