@@ -1,5 +1,7 @@
 # Business Insights 360 – Power BI Dashboard
 
+- <a href="https://github.com/anjalishaw760/Power-Bi/blob/main/Power%20bi%20final%20report%20in%2028.08.2025%20wpp.pdf">Datasetview</a>
+
 ## 🔹Brief Summary
 
 An interactive Power BI dashboard designed to provide end-to-end business insights across Finance, Sales, Marketing, and Supply Chain, enabling executives to make data-driven decisions.
