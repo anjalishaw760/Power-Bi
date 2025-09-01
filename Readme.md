@@ -1,6 +1,6 @@
 # Business Insights 360 – Power BI Dashboard
 
-- <a href="https://github.com/anjalishaw760/Power-Bi/blob/main/Screenshot%20(684).png">Screenshotview</a>
+- <a href="https://github.com/anjalishaw760/Power-Bi/blob/main/Screenshot%20(684).png">view </a>
 
 ## 🔹Brief Summary
 
