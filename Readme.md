@@ -8,14 +8,14 @@
 An interactive Power BI dashboard designed to provide end-to-end business insights across Finance, Sales, Marketing, and Supply Chain, enabling executives to make data-driven decisions.
 
 
-#  📌 Overview
+##  📌 Overview
 
 This project, Business Insights 360, consolidates data from multiple business domains into a single reporting solution. It helps stakeholders track Net Sales, Gross Margin, Net Profit, Forecast Accuracy, and Market Performance across regions, products, and customers.
 
 By integrating financial, sales, marketing, and supply chain metrics, the dashboard delivers a 360-degree view of organizational performance.
 
 
-# ❓ Problem Statement
+## ❓ Problem Statement
 
 Organizations often struggle with:
 
@@ -31,7 +31,7 @@ Organizations often struggle with:
 This project addresses these issues by creating a centralized analytics hub in Power BI.
 
 
-# 📊 Dataset
+## 📊 Dataset
 
 Sales Transactions: Net sales, gross sales, discounts, and deductions
 
@@ -44,7 +44,7 @@ Supply Chain Data: Forecast accuracy, net error, inventory risk (EI & OOS flags)
 Market Share Data: AtliQ vs Competitors, yearly performance trends
 
 
-# 🛠 Tools & Technologies
+## 🛠 Tools & Technologies
 
 Power BI Desktop – Data modeling, DAX measures, and visualization
 
@@ -55,7 +55,7 @@ DAX – Advanced calculations for metrics like GM%, Forecast Accuracy, Profit %
 ETL in Power Query – Data cleaning, transformation, and preparation
 
 
-# ⚙ Methods
+## ⚙ Methods
 
 1. Data Cleaning & Transformation using Power Query
 
@@ -77,7 +77,7 @@ ETL in Power Query – Data cleaning, transformation, and preparation
 •  Executive Summary
 
 
-#  📈 Key Insights
+##  📈 Key Insights
 
 Net Sales reached $3.74B, showing +353% growth vs benchmark
 
@@ -94,7 +94,7 @@ Forecast Accuracy: 81.17% (↑ from 80.21% last year) but with large net errors 
 Regional Performance: APAC leading revenue ($1.92B), but with lower profitability
 
 
-#  📊 Dashboard / Model / Output
+##  📊 Dashboard / Model / Output
 
 The project delivers multiple dashboards:
 
@@ -109,7 +109,7 @@ Supply Chain Dashboard – Forecast accuracy, risk analysis (EI/OOS)
 Executive View – Consolidated top insights for decision-makers
 
 
-#  🚀 How to Run this Project?
+##  🚀 How to Run this Project?
 
 1. Install Power BI Desktop
 
@@ -128,7 +128,7 @@ git clone https://github.com/yourusername/business-insights-360.git
 5. Interact with the dashboards using filters and slicers
    
 
-#  ✅ Results & Conclusion
+##  ✅ Results & Conclusion
 
 Built a centralized BI solution reducing reporting delays
 
@@ -139,7 +139,7 @@ Identified loss-making segments (e.g., Notebooks and Peripherals with negative N
 Improved forecast accuracy monitoring for better inventory planning
 
 
-# 🔮 Future Work
+## 🔮 Future Work
 
 Automate monthly refresh via Power BI Service & Gateway
 
@@ -150,7 +150,7 @@ Add predictive analytics & ML forecasting
 Extend to HR & Customer Support analytics for a full enterprise suite
 
 
-#  👩‍💻 Author & Contact
+##  👩‍💻 Author & Contact
 
 Author: Anjali Shaw
 
